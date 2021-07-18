@@ -1,0 +1,77 @@
+.day20 .calorie-app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-between;
+  background: #272425e0;
+}
+
+.day20 .header {
+  padding: 20px 0;
+  position: relative;
+  background-color: #272425;
+  width: 100%;
+  top: 0;
+}
+
+.day20 .header h2 {
+  padding: 0;
+  color: #f79400;
+  text-align: center;
+}
+
+.day20 .calorie-app .card-container {
+  padding: 10px;
+  width: 600px;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.day20 .calorie-app .card-wrapper {
+  display: flex;
+  margin: 1rem;
+  border-radius: 5px;
+  box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.3), -1px -2px 7px rgba(0, 0, 0, 0.3);
+}
+
+.day20 .calorie-app .box {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: auto;
+  width: 70px;
+}
+
+.day20 .calorie-app .card {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px 5px;
+  position: relative;
+  background-color: snow;
+}
+
+.day20 .calorie-app .card h4 {
+  margin: 5px 0 0;
+}
+
+.day20 .calorie-app .card button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  background-color: #fffffe;
+  cursor: pointer;
+}
+
+.day20 .calorie-app .card button:hover {
+  color: red;
+}
