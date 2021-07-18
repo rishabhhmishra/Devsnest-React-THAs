@@ -1,0 +1,38 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.day-19 {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.day-19 h3 {
+  margin-bottom: 20px;
+}
+
+.day-19 buttons-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.day-19 button {
+  padding: 15px 25px;
+  border: none;
+  outline: none;
+  background-color: orange;
+  border: 1px solid rgb(221, 108, 2);
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.day-19 button:hover {
+  border: 1px solid rgb(221, 108, 2);
+  color: orange;
+  background-color: #fff;
+}
