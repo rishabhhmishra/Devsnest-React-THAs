@@ -17,7 +17,7 @@ const Card = ({ food, calorie, onDelete, id }) => {
           <span style={{ color: COLOR_CONDITION }}>{calorie}</span> cals today
         </h4>
         <button onClick={() => onDelete(id, food)}>
-          <i className="fas fa-trash"></i>
+          <i className="fas fa-trash">Delete</i>
         </button>
       </div>
     </div>
