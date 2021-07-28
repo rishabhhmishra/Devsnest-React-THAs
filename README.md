@@ -7,6 +7,10 @@ Created with CodeSandbox
   <li><a href="https://rishabhdevsnestday18.netlify.app/" "_blank">Day-18 Chess Pattern</a></li>
    <li><a href="https://rishabhdevsnestday19.netlify.app/" "_blank">Day-19 Counter Components</a></li>
   <li><a href="https://rishabhdevsnestday20.netlify.app/" "_blank">Day-20 Calorie Meter(with Delete option) </a></li>
+   <li><a href="https://rishabhdevsnestday21.netlify.app/" "_blank">Day-21 Calorie Meter(with CRUD operations) </a></li>
+   <li><a href="https://rishabhdevsnestday22.netlify.app/" "_blank">Day-22 Meme Generator </a></li>
+
+
 
 
 
