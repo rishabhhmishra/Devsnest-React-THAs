@@ -1,0 +1,111 @@
+html,
+.day23 {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+.day23 {
+  background-color: #fffffe;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.day23.dark-mode {
+  background-color: #0e0e0ef5;
+  color: #dfdfdf;
+}
+
+.day23.dark-mode .navbar {
+  background-color: #333;
+  width: 100%;
+  text-align: center;
+}
+
+.day23.dark-mode .dark-mode-toggle > button {
+  color: #999;
+}
+
+.day23.dark-mode .dark-mode-toggle > button:last-child {
+  color: #fff;
+}
+
+.day23 .navbar {
+  background-color: #ff672d;
+  display: flex;
+  width: 100%;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.day23 .dark-mode-toggle {
+  display: flex;
+  margin: 0 auto;
+}
+
+.day23 .dark-mode-toggle > button {
+  font-size: 2em;
+  background: none;
+  border: none;
+  color: #fff80c;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.day23 .dark-mode-toggle > button:last-child {
+  color: #0f0e17;
+}
+
+.day23 .dark-mode-toggle > button:focus {
+  outline: none;
+}
+
+.day23 .toggle-control {
+  position: relative;
+  padding: 0 4px;
+  display: flex;
+  align-items: center;
+}
+
+.day23 input[type="checkbox"].dmcheck {
+  width: 40px;
+  height: 10px;
+  background: #555;
+  position: relative;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.day23 input[type="checkbox"].dmcheck:checked + label {
+  left: 30px;
+}
+
+.day23 input[type="checkbox"].dmcheck:focus-visible {
+  outline: solid 2px white;
+}
+
+.day23 input[type="checkbox"].dmcheck + label {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: absolute;
+  left: 2px;
+  background: #fff;
+  opacity: 0.9;
+  background-color: #f6f6f6;
+}
+
+.day23 .mouse-move {
+  margin-top: 20px;
+  text-align: center;
+}
